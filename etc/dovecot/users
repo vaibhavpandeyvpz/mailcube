@@ -1,0 +1,1 @@
+mailcube:{plain}mailcube:1000:1000::/var/spool/mail/mailcube/:/bin/false::

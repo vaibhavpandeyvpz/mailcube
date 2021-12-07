@@ -2,7 +2,7 @@
 
 set -e
 
-if id "$1" &>/dev/null; then
+if id mailcube &>/dev/null; then
   echo '"mailcube" user already exists.'
 else
   echo '"mailcube" user does not exist, creating...'

@@ -12,7 +12,6 @@ else
 fi
 
 /usr/sbin/dovecot
-/usr/sbin/postconf maillog_file=/var/log/postfix.log
 /usr/sbin/postfix start
 
 exec "$@"
